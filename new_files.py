@@ -2,7 +2,7 @@
 import os
 
 cur_dir = ''
-for i in range(0, 10000):
+for i in range(0, 50000):
     if i % 1000 == 0:
         cur_dir = f'files_{i}'
         os.makedirs(cur_dir, exist_ok=True)
